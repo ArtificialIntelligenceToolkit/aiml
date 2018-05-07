@@ -1,0 +1,10 @@
+*.pyc
+*~
+
+MANIFEST
+build
+dist
+aiml.egg-info
+
+*.brn
+*.brain

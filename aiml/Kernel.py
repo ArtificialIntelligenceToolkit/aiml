@@ -60,8 +60,7 @@ class Kernel:
         self._brain = PatternMgr()
         self._respondLock = threading.RLock()
         self.setTextEncoding( None if PY3 else "utf-8" )
-
-        # set up the sessions        
+        # set up the sessions
         self._sessions = {}
         self._addSession(self._globalSessionID)
 
@@ -317,6 +316,13 @@ class Kernel:
             s = self._sessions
         return copy.deepcopy(s)
 
+    def _check_contain_english(self, des_str):
+        for uchar in des_str:
+            if (uchar >= u'\u0041' and uchar <= u'\u005a') or (uchar >= u'\u0061' and uchar <= u'\u007a'):
+                return True
+            else:
+                return False
+
     def learn(self, filename):
         """Load and learn the contents of the specified AIML file.
 
@@ -337,18 +343,23 @@ class Kernel:
                 sys.stderr.write(err)
                 continue
             # store the pattern/template pairs in the PatternMgr.
+            em_ext = os.path.splitext(filename)[1]
             for key,tem in handler.categories.items():
-                self._brain.add(key,tem)
+                new_key=key
+                if key and key[0] and key[1] and key[2] and em_ext=='.aiml' and (not self._check_contain_english(key[0])):
+                    new_key=(' '.join(key[0]),key[1],key[2])
+                elif key and key[0] and key[1] and key[2] and em_ext=='.aiml' and self._check_contain_english(key[0]):
+                    new_key=(key[0].upper(),key[1],key[2])
+                self._brain.add(new_key,tem)
             # Parsing was successful.
             if self._verboseMode:
                 print( "done (%.2f seconds)" % (time.clock() - start) )
 
-    def respond(self, input_, sessionID = _globalSessionID):
+    def respond(self, input_, sessionID = _globalSessionID, split=False):
         """Return the Kernel's response to the input string."""
         if len(input_) == 0:
             return u""
-
-        # Decode the input (assumed to be an encoded string) into a unicode 
+        # Decode the input (assumed to be an encoded string) into a unicode
         # string. Note that if encoding is False, this will be a no-op
         try: input_ = self._cod.dec(input_)
         except UnicodeError: pass
@@ -364,7 +375,9 @@ class Kernel:
             # split the input into discrete sentences
             sentences = Utils.sentences(input_)
             finalResponse = u""
-            for s in sentences:
+            for index,s in enumerate(sentences):
+                if split and (not self._check_contain_english(s)):
+                    s=' '.join(s)
                 # Add the input to the history list before fetching the
                 # response, so that <input/> tags work properly.
                 inputHistory = self.getPredicate(self._inputHistory, sessionID)

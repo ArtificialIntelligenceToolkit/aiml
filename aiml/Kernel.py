@@ -355,7 +355,7 @@ class Kernel:
             if self._verboseMode:
                 print( "done (%.2f seconds)" % (time.clock() - start) )
 
-    def respond(self, input_, sessionID = _globalSessionID, split=False):
+    def respond(self, input_, sessionID = _globalSessionID):
         """Return the Kernel's response to the input string."""
         if len(input_) == 0:
             return u""
@@ -376,7 +376,7 @@ class Kernel:
             sentences = Utils.sentences(input_)
             finalResponse = u""
             for index,s in enumerate(sentences):
-                if split and (not self._check_contain_english(s)):
+                if not self._check_contain_english(s):
                     s=' '.join(s)
                 # Add the input to the history list before fetching the
                 # response, so that <input/> tags work properly.

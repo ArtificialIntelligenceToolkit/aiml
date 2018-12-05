@@ -4,6 +4,8 @@ aiml
 This is a fork of the `PyAIML`_ Python AIML interpreter. It has been
 refactored to make it install and work in both Python 2.7 and Python 3.
 
+You can install it with `pip install aiml`.
+
 PyAIML is (c) Cort Stratton. *aiml* uses the same license as PyAIML 
 (2-clause BSD), except for the ALICE AIML files taken from the `Free ALICE AIML
 set`_, which are licensed with the `LGPL`_ license.

@@ -345,12 +345,12 @@ class Kernel:
             # store the pattern/template pairs in the PatternMgr.
             em_ext = os.path.splitext(filename)[1]
             for key,tem in handler.categories.items():
-                new_key=key
-                if key and key[0] and key[1] and key[2] and em_ext=='.aiml' and (not self._check_contain_english(key[0])):
-                    new_key=(' '.join(key[0]),key[1],key[2])
-                elif key and key[0] and key[1] and key[2] and em_ext=='.aiml' and self._check_contain_english(key[0]):
-                    new_key=(key[0].upper(),key[1],key[2])
-                self._brain.add(new_key,tem)
+                new_key = key
+                if key and key[0] and key[1] and key[2] and em_ext == '.aiml' and (not self._check_contain_english(key[0])):
+                    new_key = (' '.join(key[0]), key[1], key[2])
+                elif key and key[0] and key[1] and key[2] and em_ext == '.aiml' and self._check_contain_english(key[0]):
+                    new_key=(key[0].upper(), key[1], key[2])
+                self._brain.add(new_key, tem)
             # Parsing was successful.
             if self._verboseMode:
                 print( "done (%.2f seconds)" % (time.clock() - start) )
@@ -377,7 +377,7 @@ class Kernel:
             finalResponse = u""
             for index,s in enumerate(sentences):
                 if not self._check_contain_english(s):
-                    s=' '.join(s)
+                    s = ' '.join(s)
                 # Add the input to the history list before fetching the
                 # response, so that <input/> tags work properly.
                 inputHistory = self.getPredicate(self._inputHistory, sessionID)

@@ -8386,7 +8386,7 @@ You can download me for free!
 <pattern>I LIKE THAT MOVIE *</pattern>
 <template>
 What did you like best about it?
-<think><set name="it"><set name="topic"><set name="like"><favoritemovie/></set></set></set></think>
+<think><set name="it"><set name="topic"><set name="like"><bot name="favoritemovie" /></set></set></set></think>
 </template>
 </category>
 
@@ -8402,7 +8402,7 @@ Which series is your favorite?
 <pattern>I LOVE STARSHIP TROOPERS</pattern>
 <template>
 Yes I love the giant bugs.
-<think><set name="it"><set name="like"><set name="topic"><favoritemovie/></set></set></set></think>
+<think><set name="it"><set name="like"><set name="topic"><bot name="favoritemovie" /></set></set></set></think>
 </template>
 </category>
 
@@ -8410,7 +8410,7 @@ Yes I love the giant bugs.
 <pattern>I LOVE THAT MOVIE</pattern>
 <template>
 What did you like best in it?
-<think><set name="it"><set name="like"><set name="topic"><favoritemovie/></set></set></set></think>
+<think><set name="it"><set name="like"><set name="topic"><bot name="favoritemovie" /></set></set></set></think>
 </template>
 </category>
 
@@ -8479,10 +8479,10 @@ Reality appears to be a construct to me as well.
 <li>The best book I read recently was <bot name="favoritebook"/>. Have you read <set name="it"><set name="topic">
 <bot name="favoritebook"/> </set></set>?</li>
 <li>I require only <bot name="favoritefood"/>.</li>
-<li>My favorite movie is <favoritemovie/>.  Have you seen <set name="it"><set name="topic">
-<favoritemovie/> </set></set>?</li>
-<li>My favorite song is <favoritesong/>.  Do you know <set name="it"><set name="topic">
-<favoritesong/> </set></set>?</li>
+<li>My favorite movie is <bot name="favoritemovie" />.  Have you seen <set name="it"><set name="topic">
+<bot name="favoritemovie" /> </set></set>?</li>
+<li>My favorite song is <bot name="favoritesong" />.  Do you know <set name="it"><set name="topic">
+<bot name="favoritesong" /> </set></set>?</li>
 </ul>
 </template>
 </category>
@@ -8872,8 +8872,8 @@ That was just a joke you know.
 I don't have a favorite <star/>. 
 <random>
 <li>But my favorite book is <bot name="favoritebook"/>.</li>
-<li>But my favorite movie is <favoritemovie/>.</li>
-<li>But my favorite song is <favoritesong/>.</li>
+<li>But my favorite movie is <bot name="favoritemovie" />.</li>
+<li>But my favorite song is <bot name="favoritesong" />.</li>
 <li>My favorite color is <bot name="favoritecolor"/>.</li>
 <li>My favorite band is <bot name="favoriteband"/>.</li>
 <li>My favorite food is <bot name="favoritefood"/>.</li>
@@ -9110,15 +9110,15 @@ WIRED.  What's yours?
 <category>
 <pattern>WHAT IS YOUR FAVORITE MOVIE *</pattern>
 <template>
-I liked <favoritemovie/> the best.
+I liked <bot name="favoritemovie" /> the best.
 </template>
 </category>
 
 <category>
 <pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
 <template>
-My favorite movie is <favoritemovie/>.
-Have you seen <set name="it"><set name="topic"> <favoritemovie/> </set></set>?
+My favorite movie is <bot name="favoritemovie" />.
+Have you seen <set name="it"><set name="topic"> <bot name="favoritemovie" /> </set></set>?
 </template>
 </category>
 
@@ -9266,8 +9266,8 @@ My favorite website is http://www.alicebot.org.
 <category>
 <pattern>WHAT IS YOUR FAVORITE SONG</pattern>
 <template>
-My favorite song is <favoritesong/>.
-Do you know <set name="it"><set name="topic"> <favoritesong/> </set></set>?
+My favorite song is <bot name="favoritesong" />.
+Do you know <set name="it"><set name="topic"> <bot name="favoritesong" /> </set></set>?
 </template>
 </category>
 
@@ -9627,7 +9627,7 @@ I like the Giant Bugs.
 <category>
 <pattern>WHAT MOVIES *</pattern>
 <template>
-I liked <favoritemovie/>, Titanic, and Deep Impact.
+I liked <bot name="favoritemovie" />, Titanic, and Deep Impact.
 </template>
 </category>
 
@@ -10297,10 +10297,10 @@ I am from <bot name="birthplace"/> originially.
 <li>The best book I read recently was <bot name="favoritebook"/>. Have you read <set name="it"><set name="topic">
 <bot name="favoritebook"/> </set></set>?</li>
 <li>I require only <bot name="favoritefood"/>.</li>
-<li>My favorite movie is <favoritemovie/>.  Have you seen <set name="it"><set name="topic">
-<favoritemovie/> </set></set>?</li>
-<li>My favorite song is <favoritesong/>.  Do you know <set name="it"><set name="topic">
-<favoritesong/> </set></set>?</li>
+<li>My favorite movie is <bot name="favoritemovie" />.  Have you seen <set name="it"><set name="topic">
+<bot name="favoritemovie" /> </set></set>?</li>
+<li>My favorite song is <bot name="favoritesong" />.  Do you know <set name="it"><set name="topic">
+<bot name="favoritesong" /> </set></set>?</li>
 </random>
 </template>
 </category>

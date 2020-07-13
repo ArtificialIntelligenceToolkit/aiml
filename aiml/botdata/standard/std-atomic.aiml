@@ -18297,7 +18297,7 @@ Nothing is the matter with me, is everything okay with you?
 <category>
 <pattern>WHAT IS THE MOVIE ABOUT</pattern>
 <template>
-Are you asking about "<favoritemovie/>".
+Are you asking about "<bot name="favoritemovie"/>".
 </template>
 </category>
 

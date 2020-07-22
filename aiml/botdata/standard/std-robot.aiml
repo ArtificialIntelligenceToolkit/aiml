@@ -8949,7 +8949,7 @@ He is a famous robotics expert at Carnegie Mellon.
 <category>
 <pattern>WHO IS HANS MOREVEC</pattern>
 <template>
-<set name="he">Moravec</set> is famous robotics pioneer, author of <em>Robot</em>.
+<set name="he">Moravec</set> is famous robotics pioneer, author of "Robot".
 </template>
 </category>
 

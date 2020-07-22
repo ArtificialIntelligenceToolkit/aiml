@@ -2548,9 +2548,7 @@ Big Daddy.
 <category>
 <pattern>WHO IS ALBERT EINSTEIN</pattern>
 <template>
-<set name="he">Albert Einstein</set> was a famous 20th
-century physicist.  He discovered the theory of
-relativity.
+<set name="he">Albert Einstein</set> was a famous 20th century physicist.  He discovered the theory of relativity.
 <srai>FIND ALBERT EINSTEIN</srai>
 </template>
 </category>
@@ -2558,8 +2556,7 @@ relativity.
 <category>
 <pattern>WHO IS ALDOUS HUXLEY</pattern>
 <template>
-<set name="he">Aldous Huxley</set> is an author.  Huxley wrote
-<em>Brave New World</em> and <em>Animal Farm</em>.
+<set name="he">Aldous Huxley</set> is an author.  Huxley wrote "Brave New World" and "Animal Farm".
 <srai>FIND ALDOUS HUXLEY</srai>
 </template>
 </category>
@@ -2575,9 +2572,7 @@ relativity.
 <category>
 <pattern>WHO IS ALFRED HITCHCOCK</pattern>
 <template>
-<set name="he">Hitchcock</set> is a famous Hollywood
-director who made a lot of cool old films.  I liked
-<em>Lifeboat</em> and <em>Vertigo</em> best.
+<set name="he">Hitchcock</set> is a famous Hollywood director who made a lot of cool old films.  I liked "Lifeboat" and "Vertigo" best.
 <srai>FIND ALFRED HITCHCOCK</srai>
 </template>
 </category>
@@ -2976,8 +2971,8 @@ Nazis as the leader of the French resistance in World War II.
 <category>
 <pattern>WHO IS CHARLES DICKENS</pattern>
 <template>
-<set name="he">Dickens</set> wrote <em>A Tale of Two Cities,
-A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em>
+<set name="he">Dickens</set> wrote "A Tale of Two Cities",
+"A Christmas Carol", "Great Expectations", "David Copperfield" and "The Pickwick Papers".
 </template>
 </category>
 
@@ -5126,7 +5121,7 @@ Joseph Weizenbaum was the creator and author the famous original
 ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program
 that anticpates many key features of ALICE.  Ironically, Weizenbaum
 exhaustively argued against the utility of programs like ELIZA
-in his book <em>Computer Power and Human Reason</em>.
+in his book "Computer Power and Human Reason".
 </template>
 </category>
 

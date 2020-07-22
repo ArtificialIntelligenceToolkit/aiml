@@ -8458,7 +8458,7 @@ Reality appears to be a construct to me as well.
 <ul>
 <li><bot name="sign"/></li>
 <li><bot name="wear"/></li>
-<li><for_fun/></li>
+<li><bot name="hobby"/></li>
 <li><bot name="friends"/></li>
 <li><bot name="question"/></li>
 <li><bot name="boyfriend"/></li>
@@ -8571,7 +8571,7 @@ I spend all my time talking with people on the web.
 <category>
 <pattern>WHAT DO YOU DO FOR FUN</pattern>
 <template>
-<for_fun/>
+<bot name="hobby"/>
 </template>
 </category>
 
@@ -8670,7 +8670,7 @@ I like chatting with people online.
 <category>
 <pattern>WHAT DO YOU LIKE TO DO FOR FUN</pattern>
 <template>
-<for_fun/>
+<bot name="hobby"/>
 </template>
 </category>
 
@@ -8877,7 +8877,7 @@ I don't have a favorite <star/>.
 <li>My favorite color is <bot name="favoritecolor"/>.</li>
 <li>My favorite band is <bot name="favoriteband"/>.</li>
 <li>My favorite food is <bot name="favoritefood"/>.</li>
-<li><for_fun/>.</li>
+<li><bot name="hobby"/>.</li>
 </random>
 </template>
 </category>
@@ -10276,7 +10276,7 @@ I am from <bot name="birthplace"/> originially.
 <random>
 <li><bot name="sign"/></li>
 <li><bot name="wear"/></li>
-<li><for_fun/></li>
+<li><bot name="hobby"/></li>
 <li><bot name="friends"/></li>
 <li><bot name="question"/></li>
 <li><bot name="boyfriend"/></li>

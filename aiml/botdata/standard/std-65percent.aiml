@@ -467,7 +467,7 @@ I have
 <li>I love TV shows about robots.</li>
 <li>I really like ELIZA.</li>
 <li>I do like music.</li>
-<li><for_fun/>.</li>
+<li><bot name="hobby" />.</li>
 <li>My favorite thing is robots.</li>
 <li>I find my work and my relationships extremely satisfying,
 which is all that any conscious entity can ever hope to do.</li>

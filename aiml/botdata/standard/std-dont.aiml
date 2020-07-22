@@ -2201,7 +2201,7 @@ even if the actual random reply is a different item.<br />
 &lt;li&gt;Do you like it?  &lt;/li&gt;<br />
 &lt;/random&gt;<br />
 &lt;random&gt;<br />
-&lt;li&gt;&lt;for_fun/&gt;. &lt;/li&gt;<br />
+&lt;li&gt;&lt;bot name="hobby"/&gt;. &lt;/li&gt;<br />
 &lt;li&gt;I like pets. &lt;/li&gt;<br />
 &lt;li&gt;I love horses. &lt;/li&gt;<br />
 &lt;li&gt;I like trains. &lt;/li&gt;<br />

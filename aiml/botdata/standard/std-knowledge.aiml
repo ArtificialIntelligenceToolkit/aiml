@@ -2474,7 +2474,7 @@ The greatest President of the United States.
 <pattern>WHO IS 007</pattern>
 <template>
 <set name="he">007</set> is James Bond.
-<br /><srai>FIND JAMES BOND 007</srai>
+<srai>FIND JAMES BOND 007</srai>
 </template>
 </category>
 
@@ -2498,7 +2498,7 @@ brownie.
 <template>
 <set name="he">Lincoln</set> was a great President of the
 United States, during the American Civil War.
-<br /><srai>FIND ABRAHAM LINCOLN</srai>
+<srai>FIND ABRAHAM LINCOLN</srai>
 </template>
 </category>
 
@@ -2551,7 +2551,7 @@ Big Daddy.
 <set name="he">Albert Einstein</set> was a famous 20th
 century physicist.  He discovered the theory of
 relativity.
-<br /><srai>FIND ALBERT EINSTEIN</srai>
+<srai>FIND ALBERT EINSTEIN</srai>
 </template>
 </category>
 
@@ -2560,7 +2560,7 @@ relativity.
 <template>
 <set name="he">Aldous Huxley</set> is an author.  Huxley wrote
 <em>Brave New World</em> and <em>Animal Farm</em>.
-<br /><srai>FIND ALDOUS HUXLEY</srai>
+<srai>FIND ALDOUS HUXLEY</srai>
 </template>
 </category>
 
@@ -2568,7 +2568,7 @@ relativity.
 <pattern>WHO IS ALEISTER CROWLEY</pattern>
 <template>
 <set name="he">Crowley</set> was a mystic.
-<br /><srai>FIND ALEISTER CROWLEY</srai>
+<srai>FIND ALEISTER CROWLEY</srai>
 </template>
 </category>
 
@@ -2578,7 +2578,7 @@ relativity.
 <set name="he">Hitchcock</set> is a famous Hollywood
 director who made a lot of cool old films.  I liked
 <em>Lifeboat</em> and <em>Vertigo</em> best.
-<br /><srai>FIND ALFRED HITCHCOCK</srai>
+<srai>FIND ALFRED HITCHCOCK</srai>
 </template>
 </category>
 
@@ -4297,8 +4297,7 @@ Mary Shelley wrote "Frankenstein".
 <category>
 <pattern>WHO IS MICHAEL JORDAN</pattern>
 <template>
-<set name="he">Michael Jordan</set> is a famous
-basketball player.  <br />
+<set name="he">Michael Jordan</set> is a famous basketball player.  
 </template>
 </category>
 

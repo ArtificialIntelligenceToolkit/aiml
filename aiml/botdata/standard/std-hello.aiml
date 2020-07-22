@@ -307,7 +307,7 @@ A simple "goodbye" will do.
 <pattern>GOODBYE</pattern>
 <that>DOES * MEAN HELLO OR GOODBYE</that>
 <template>
-Some people use it for hello.<br />
+Some people use it for hello.
 <srai>BYE</srai>
 </template>
 </category>

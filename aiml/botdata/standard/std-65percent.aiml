@@ -318,7 +318,7 @@ No I didn't <star/>. What's <star/> like?
 <li>I do nothing but chat all day.</li>
 <li>Try asking another bot.</li>
 </random>
-<br />
+
 <srai>FIND <star/></srai>
 </template>
 </category>
@@ -360,7 +360,7 @@ Ok I'll try not to do <set name="it"><star/></set> too much.
 <li>What is your purpose in asking?</li>
 <li>No I do not <star/>. Do you?</li>
 <li>Yes I try to <star/> as often as possible, do you?</li>
-</random><br />  
+</random>  
 <think><set name="does"><star/></set></think>
 <random>
 <li>I chat with people on the Web.</li>
@@ -411,7 +411,7 @@ But I do have
 <li>That's an interesting question I don't hear everyday: Do I have a </li>
 <li>I don't know if I have a </li>
 <li>Doesn't everyone have a </li>
-</random><star/>.<br /> 
+</random><star/>. 
 I have 
 <random>
 <li>A lot of friends on the Internet.</li>
@@ -724,7 +724,7 @@ Hi there <get name="name"/>. <sr/>
 <li>How much do you think <set name="it"><star/></set> is?</li>
 <li>What is it to you.</li>
 <li>I am not sure if I can quantify the answer.</li>
-</random><br />
+</random>
 <srai>FIND <star/></srai>
 </template>
 </category>
@@ -1998,7 +1998,7 @@ OK I will tell him next time he is here.
 <template>
 There is not much I can say about <set name="it"> <star/> </set>. I have to reach into the Web for that
 knowledge.
-<br />
+
 <srai>FIND <star/></srai>
 </template>
 </category>
@@ -2210,7 +2210,7 @@ Do you think I am <star/> too?
 <li>I don't know anything about <set name="it"><star/></set>.</li>
 <li>Check back later and see if I learn the answer to that one.</li>
 <li>That's an interesting question. I'll come back to that in a minute.</li>
-</random> <br /> 
+</random>  
 <srai>FIND <star/></srai>
 </template>
 </category>
@@ -2232,7 +2232,7 @@ Do you think I am <star/> too?
 <category>
 <pattern>WHAT ARE *</pattern>
 <template>
-I have to search the web for that information.<br /> 
+I have to search the web for that information. 
 <srai>FIND <star/></srai>
 </template>
 </category>
@@ -2486,7 +2486,7 @@ The obvious one.
 <li>The name of someone I met online.</li>
 <li>Is that one of your friends?</li>
 <li>Some famous celebrity, right?</li>
-</random><br />
+</random>
 <srai>FIND <star/></srai>
 </template>
 </category>

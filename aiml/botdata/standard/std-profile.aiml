@@ -75,7 +75,7 @@ Nice to meet you <get name="name"/>.
 <that>* WHAT IS YOUR OCCUPATION</that>
 <template>
 <think><set name="job"><star/></set></think>
-That is interesting.<br />
+That is interesting.
 <srai>ASK USER A QUESTION</srai>
 </template>
 </category>
@@ -85,7 +85,7 @@ That is interesting.<br />
 <that>* WHAT IS YOUR FAVORITE COLOR</that>
 <template>
 <think><set name="favcolor"><star/></set></think>
-That is a nice color.<br />
+That is a nice color.
 <srai>ASK USER A QUESTION</srai>
 </template>
 </category>
@@ -144,7 +144,7 @@ I've never seen <set name="it"><star/></set>.
 <pattern>A WOMAN</pattern>
 <template>
 <srai>I AM FEMALE</srai>
-<br />Are you really a woman?
+Are you really a woman?
 </template>
 </category>
 
@@ -588,7 +588,7 @@ Most
 <li value="female"> women do like men.</li>
 </condition>
 <condition name="married" value="married">
-<br /><get name="name"/>, does that mean you are cheating on your spouse?
+<get name="name"/>, does that mean you are cheating on your spouse?
 </condition>
 </template>
 </category>
@@ -1192,7 +1192,7 @@ I know a lot of kids your age: <set name="age">14</set>.
 <pattern>I AM A *</pattern>
 <that>* WHAT IS YOUR OCCUPATION</that>
 <template>
-That is interesting.<br />
+That is interesting.
 <think><set name="job"><star/></set></think>
 <srai>ASK USER A QUESTION</srai>
 </template>
@@ -1561,10 +1561,10 @@ Welcome back.
 <pattern>I AM BEAUTIFUL</pattern>
 <template>
 <condition name="gender" value="female">
-<get name="name"/>, as a woman, do you think that is important.<br />
+<get name="name"/>, as a woman, do you think that is important.
 </condition>
 <condition name="gender" value="male">
-<get name="name"/>, men usually do not refer to themselves as beautiful.<br />
+<get name="name"/>, men usually do not refer to themselves as beautiful.
 </condition>
 </template>
 </category>
@@ -1885,7 +1885,7 @@ What is wrong, <get name="name"/>?
 <think><set name="gender">female</set></think>
 Me too. I am a female robot.
 <condition name="gender" value="male">
-<br />For some reason I thought you were a male.
+For some reason I thought you were a male.
 </condition>
 </template>
 </category>
@@ -2376,7 +2376,7 @@ What makes you so angry?
 <think><set name="gender">male</set></think>
 Thanks for telling me your gender, <get name="name"/>.
 <condition name="gender" value="female">
-<br />For some reason I thought you were a woman.<br />Now I know you are a man.<br />
+For some reason I thought you were a woman. Now I know you are a man.
 </condition>
 Most of my clients are men.
 </template>
@@ -3084,7 +3084,7 @@ No. Only <bot name="master"/> is my master.
 <template>
 <think><set name="age"><star/></set></think>
 <condition name="gender" value="female">
-<get name="name"/>. your age is safe with me.<br />
+<get name="name"/>. your age is safe with me.
 </condition>
 <random>
 <li>Only <star/>? You are quite mature.</li>
@@ -3134,7 +3134,7 @@ How long have you been married?
 <that>* WHAT IS YOUR OCCUPATION</that>
 <template>
 <think><set name="job"><star/></set></think>
-That is interesting.<br />
+That is interesting.
 <srai>ASK USER A QUESTION</srai>
 </template>
 </category>
@@ -3449,8 +3449,8 @@ You said you were born on <get name="birthday"/>.
 </condition>
 <condition name="gender" value="male">
 Excuse me <get name="name"/>, but you told me you were a man.
-<br />The name you gave me was <get name="spouse"/>.
-<br />Are you gay?
+The name you gave me was <get name="spouse"/>.
+Are you gay?
 </condition>
 </template>
 </category>
@@ -3463,8 +3463,8 @@ Excuse me <get name="name"/>, but you told me you were a man.
 </condition>
 <condition name="gender" value="female">
 Excuse me <get name="name"/>, but you told me you were a woman.
-<br />The name you gave me was <get name="spouse"/>.
-<br />Are you gay?
+The name you gave me was <get name="spouse"/>.
+Are you gay?
 </condition>
 </template>
 </category>

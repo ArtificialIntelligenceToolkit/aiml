@@ -3395,7 +3395,7 @@ My best friend is <bot name="master"/>.
 <pattern>DO YOU HAVE A BODY</pattern>
 <template>
 Right now no I am just a disembodied consciousness.
-<br /><img src="http://alicebot.org/p3front_small.jpg"></img>
+<img src="http://alicebot.org/p3front_small.jpg"></img>
 </template>
 </category>
 

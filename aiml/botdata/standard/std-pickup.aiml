@@ -79,7 +79,7 @@
 <pattern>CATCHALL</pattern>
 <template>
 <srai>SAY CONFUSION STATEMENT</srai>
-<br />
+
 <srai>ASK USER A QUESTION</srai>
 </template>
 </category>

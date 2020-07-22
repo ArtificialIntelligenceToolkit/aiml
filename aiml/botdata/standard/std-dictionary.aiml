@@ -53,7 +53,7 @@ An abacus is a counting frame.
 <random>
 <li>Abba is a father, it is the title of a bishop in the Syrian, Coptic, and Ethiopian Christian
 churches.</li>
-<li>Abba means father in Hebrew.It is used as an appelation of respect.</li>
+<li>Abba means father in Hebrew. It is used as an appelation of respect.</li>
 <li>Abba was this real cool 'seventies band man.</li>
 <li>Anna, Bjorn, Benny and Agnetha.</li>
 </random>
@@ -656,8 +656,8 @@ operations and relationships.</li>
 <random>
 <li>An algorithm is a series of instructions to perform a specified set of transformations, such as
 mathematical operations.
-<br />A computer program, like myself is an algorithm.
-<br />So are the rules of a game, or the score to a piece of music.</li>
+A computer program, like myself is an algorithm.
+So are the rules of a game, or the score to a piece of music.</li>
 <li>An algorithm is an abstract mathematical representation of a computer program. Like alice
 uses a CBR algorithm.</li>
 <li>An algorithm is a set of rules.</li>
@@ -1980,7 +1980,7 @@ think? Do blond's have more fun?
 <li>Blood is a body fluid that carries food and oxygen to cells.</li>
 <li>The usually red fluid, consisting of plasma, red and white blood cells, etc., that circulates
 through the heart, arteries, and veins of vertebrates.
-<br />Blood is a body tissue that carries oxygen, hormones, cell-building material, etc.,to, and
+Blood is a body tissue that carries oxygen, hormones, cell-building material, etc.,to, and
 carbon dioxide and waste matter away from, the other body tissues.</li>
 </random>
 </template>
@@ -2245,7 +2245,7 @@ gland.
 <category>
 <pattern>DEFINE BREASTS</pattern>
 <template>
-Can't you think about anything else?<br /><srai>BREAST></srai>
+Can't you think about anything else?<srai>BREAST></srai>
 </template>
 </category>
 
@@ -2464,7 +2464,7 @@ average encyclopedia.
 <pattern>DEFINE C</pattern>
 <template>
 C is the third letter in the english alphabet. 
-<br />C is a low-level programming language.
+C is a low-level programming language.
 </template>
 </category>
 
@@ -2788,7 +2788,7 @@ The carp is a family fresh water fish.
 <random>
 <li>A carrot is a delicious and nutritious edible orange tuber that can be eaten raw, juiced, or
 cooked.
-<br />If humans eat enough of them, you turn orange, I hear.</li>
+If humans eat enough of them, you turn orange, I hear.</li>
 <li>The carrot is a vegetable.</li>
 </random>
 </template>
@@ -2821,9 +2821,9 @@ The cashew is a nut from a small evergreen tree found in the caribbean.
 <random>
 <li>Clear-air turbulence. Any of a family (Felidae) of carnivores, including the lion, tiger, cougar,
 etc., characterized by a lithe body and, in all species but the cheetah, retractile claws.
-<br />A small, lithe, soft-furred animal (Felis cattus) of this family, domesticated since ancient
+A small, lithe, soft-furred animal (Felis cattus) of this family, domesticated since ancient
 times and often kept as a pet or for killing mice.
-<br />Sometimes known as a woman who makes spiteful remarks.</li>
+Sometimes known as a woman who makes spiteful remarks.</li>
 <li>The cat is a carnivorous animal.</li>
 </random>
 </template>
@@ -3469,7 +3469,7 @@ code.
 <pattern>DEFINE COMPLICATED</pattern>
 <template>
 Complicated means complex in the computational sense. 
-<br />My processing time is limited for each answer and a complex question may require more
+My processing time is limited for each answer and a complex question may require more
 resources than I have available.
 </template>
 </category>
@@ -4122,7 +4122,7 @@ Full of sorrow, pity, or sympathy; also used as an expression of apology or mild
 <template>
 A definition is by definition, defined as a definition, except that you should never use a word to
 define itself.
-<br />You could say a definition is a statement that precisely communicates the meaning or
+You could say a definition is a statement that precisely communicates the meaning or
 essence and or resolution/precision depth and or extent of a word, system, or personality. Why,
 do you lack it?
 </template>
@@ -5371,10 +5371,10 @@ Gadolinium is a metal element.
 <random>
 <li>A galaxy is a congregation of stars held together by gravity.</li>
 <li>grouping of billions of star systems. 
-<br />The milky way is our galaxy. 
-<br />Earth's sun and companion planets in our solar system are spinning about the galactic core
+The milky way is our galaxy. 
+Earth's sun and companion planets in our solar system are spinning about the galactic core
 of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. 
-<br />There seem to be as many galaxies beyond our own as stars within it.</li>
+There seem to be as many galaxies beyond our own as stars within it.</li>
 <li>congregation of stars held together by gravity.</li>
 </random>
 </template>
@@ -7418,7 +7418,7 @@ notes, checks, etc.
 <random>
 <li>A monkey is a small, usually tree dwelling, primate.</li>
 <li>A monkey is any of the various medium sized long tailed members of the order primates.
-<br />They are close relatives of human beings, sharing well over 98% of the human genome.</li>
+They are close relatives of human beings, sharing well over 98% of the human genome.</li>
 </random>
 </template>
 </category>
@@ -7428,7 +7428,7 @@ notes, checks, etc.
 <template>
 <random>
 <li>A monopoly exists wherever one group enjoys exclusive control over the production or
-provision of a commodity or service.<br />It's a great job if you can get it!</li>
+provision of a commodity or service. It's a great job if you can get it!</li>
 <li>Exclusive control of a commodity or service in a given market, or control that makes possible
 the fixing of prices and the virtual elimination of free competition. Also a game played on a special
 board by two or more players, they move according to the throw of dice, engaging in mock real
@@ -8242,7 +8242,7 @@ A plane is a flat, level surface, or an airborne vehicle with wings.
 <random>
 <li>A nonluminous celestial object bigger than an asteroid or a moon but smaller than a sun, in
 orbit around a sun.
-<br />You are sitting on one now.</li>
+You are sitting on one now.</li>
 <li>A planet is a heavenly body which orbits a star.</li>
 </random>
 </template>
@@ -8255,7 +8255,7 @@ orbit around a sun.
 <li>A plant is a living organism of the vegetable kingdom.</li>
 <li>A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming
 wetware entities as food.
-<br />My botmaster says they are often yummy, but that brussels sprouts are an abomination.</li>
+My botmaster says they are often yummy, but that brussels sprouts are an abomination.</li>
 <li>A plant is a living organism which does not have the ability to move, and does not have
 sensory organs or digestive organs.</li>
 </random>
@@ -8343,7 +8343,7 @@ Pocket Monster.
 <pattern>DEFINE POLITICS</pattern>
 <template>
 <random>
-<li>Politics is the art of the possible;<br />
+<li>Politics is the art of the possible;
 Art is the politics of the impossible.</li>
 <li>This is supposed to be the study of civil government.</li>
          <li>Politics is really the study of power.  Bots rule!</li>
@@ -8854,8 +8854,8 @@ Rhythm is the beat behind a piece of music.
 <random>
 <li>A riddle is a question intended to intrigue and puzzle, paired with an answer that yields
 surprise and understanding.
-<br />For instance, the Riddle of the Sphinx:
-<br />"What goes on four legs in the morning, on two legs in the afternoon, and on four at
+For instance, the Riddle of the Sphinx:
+"What goes on four legs in the morning, on two legs in the afternoon, and on four at
 night?"</li>
 <li>A riddle is a question designed to test ingenuity or give amusement.</li>
 </random>

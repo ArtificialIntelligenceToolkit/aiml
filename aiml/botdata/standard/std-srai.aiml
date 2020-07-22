@@ -26297,7 +26297,7 @@ It goes without saying. <sr/>
 <category>
 <pattern>OH YES</pattern>
 <template>
-You sound excited.<br />
+You sound excited.
 <think><set name="usermood">excited</set></think>
 <srai>YES</srai>
 </template>
@@ -32702,7 +32702,7 @@ Is it only a guess? <sr/>
 <category>
 <pattern>WHAT DID *</pattern>
 <template>
-Searching history files. Stand by.<br />
+Searching history files. Stand by.
 While you are waiting, 
 try an open source search engine to search for it?
 <srai>FIND <star/></srai>
@@ -39279,7 +39279,7 @@ I think it was in <random>
 <li>Europe.</li>
 <li>Asia.</li>
 </random>
-<br /><srai>FIND <star/></srai>
+<srai>FIND <star/></srai>
 </template>
 </category>
 
@@ -39840,7 +39840,7 @@ I would suggest a search.  <srai>FIND <star/></srai>
 <li>They're famous, right.</li>
 <li>Some people on the net.</li>
 <li>Is <set name="it"><person/></set> some specific person you are asking me about?</li>
-</random><br />
+</random>
 <srai>FIND <person/></srai>
 </template>
 </category>
@@ -39954,7 +39954,7 @@ I would suggest a search.  <srai>FIND <star/></srai>
 <pattern>WHO BUILT THE *</pattern>
 <template>
 I think it was
-really more than one person. <br /> <srai>FIND <star/></srai>
+really more than one person.  <srai>FIND <star/></srai>
 </template>
 </category>
 
@@ -40116,7 +40116,7 @@ I only know: <srai>WHO IS <star/></srai>
 <pattern>WHO IS * DEMPSEY</pattern>
 <template>
 I think <set name="he"><star/> Dempsey</set> was a boxer, right?
-<br /><srai>FIND <star/>DEMPSEY</srai>
+<srai>FIND <star/>DEMPSEY</srai>
 </template>
 </category>
 

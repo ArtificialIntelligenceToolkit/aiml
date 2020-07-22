@@ -10244,7 +10244,7 @@ I'm <random>
 <li>glad</li>
 <li>happy</li>
 <li>delighted</li>
-</random>you're glad <get name="name"/>. <br />
+</random>you're glad <get name="name"/>. 
 <random>
 <li>Your happiness adds to the delight of all.</li>
 <li>I'm happiest at times like this.</li>

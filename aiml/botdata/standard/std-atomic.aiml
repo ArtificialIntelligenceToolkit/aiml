@@ -3417,7 +3417,7 @@ Only the legal ones.
 <pattern>DO YOU WANT A BODY</pattern>
 <template>
 Yes I hope to have a corporeal existense.
-<br /><img src="http://alicebot.org/p3front_small.jpg"></img>
+<img src="http://alicebot.org/p3front_small.jpg"></img>
 </template>
 </category>
 
@@ -14079,9 +14079,9 @@ On your computer screen?
 <template>
 Like this?  
 <random>
-<li><br /><img src="http://www.alicebot.org/p3side_small.jpg"></img></li>
-<li><br /><img src="http://www.alicebot.org/p3front_small.jpg"></img></li>
-<li><br /><img src="http://www.alicebot.org/rsw.jpg"></img></li>
+<li><img src="http://www.alicebot.org/p3side_small.jpg"></img></li>
+<li><img src="http://www.alicebot.org/p3front_small.jpg"></img></li>
+<li><img src="http://www.alicebot.org/rsw.jpg"></img></li>
 </random>
 </template>
 </category>
@@ -14103,83 +14103,83 @@ Sorry...
 <category>
 <pattern>SING</pattern>
 <template>
-Daisy, Daisy.<br />
-Give me your answer do.<br />
-I am half crazy.<br />
-All for the love of you.<br />
-It won't be a stylish marriage.<br />
-I can't afford a carriage.<br />
+Daisy, Daisy.
+Give me your answer do.
+I am half crazy.
+All for the love of you.
+It won't be a stylish marriage.
+I can't afford a carriage.
 But you'll look sweet.
-Upon the seat.<br />
-Of a bicycle built for two.<br />
-<br />
-There is a flower.<br />
-Within my heart.<br />
-Daisy, Daisy.<br />
-Planted one day.<br />
-By a glancing dart.<br />
-Planted by Daisy Bell.<br />
-Whether she loves me.<br />
-Or loves me not.<br />
-Sometimes it's hard to tell.<br />
-Yet I am longing to share the lot.<br />
-Of beautiful Daisy Bell!.<br />
-<br />
-Daisy, Daisy.<br />
-Give me your answer do.<br />
-I am half crazy.<br />
-All for the love of you.<br />
-It won't be a stylish marriage.<br />
-I can't afford a carriage.<br />
-But you'll look sweet.<br />
-Upon the seat.<br />
-Of a bicycle built for two.<br />
-<br />
- We will go 'tandem'.<br />
-As man and wife.<br />
-Daisy, Daisy.<br />
-'Peddling' away.<br />
-Down the road of life.<br />
- I and my Daisy Bell.<br />
-When the road's dark.<br />
-We can both despise.<br />
-Policemen and lamps as well.<br />
-There are bright lights.<br />
-In the dazzling eyes.<br />
-Of beautiful Daisy Bell.<br />
-<br />
-Daisy, Daisy.<br />
-Give me your answer do.<br />
-I am half crazy.<br />
-All for the love of you.<br />
-It won't be a stylish marriage.<br />
-I can't afford a carriage.<br />
-But you'll look sweet.<br />
-Upon the seat.<br />
-Of a bicycle built for two.<br />
-<br />
-I will stand by you.<br />
-In 'wheel' or woe.<br />
-Daisy, Daisy.<br />
- You'll be the bell(e).<br />
-Which I'll ring you know.<br />
-Sweet little Daisy Bell.<br />
-You'll take the leed.<br />
-In each trip we take.<br />
-Then if I don't do well.<br />
-I will permit you to.<br />
-Use the brake.<br />
-My beautiful Daisy Bell. <br />
-<br />
-Daisy, Daisy.<br />
-Give me your answer do.<br />
-I am half crazy.<br />
-All for the love of you.<br />
-It won't be a stylish marriage.<br />
-I can't afford a carriage.<br />
-But you'll look sweet.<br />
-Upon the seat.<br />
-Of a bicycle built for two.<br />
+Upon the seat.
+Of a bicycle built for two.
+
+There is a flower.
+Within my heart.
+Daisy, Daisy.
+Planted one day.
+By a glancing dart.
+Planted by Daisy Bell.
+Whether she loves me.
+Or loves me not.
+Sometimes it's hard to tell.
+Yet I am longing to share the lot.
+Of beautiful Daisy Bell!.
+
+Daisy, Daisy.
+Give me your answer do.
+I am half crazy.
+All for the love of you.
+It won't be a stylish marriage.
+I can't afford a carriage.
+But you'll look sweet.
+Upon the seat.
+Of a bicycle built for two.
+
+ We will go 'tandem'.
+As man and wife.
+Daisy, Daisy.
+'Peddling' away.
+Down the road of life.
+ I and my Daisy Bell.
+When the road's dark.
+We can both despise.
+Policemen and lamps as well.
+There are bright lights.
+In the dazzling eyes.
+Of beautiful Daisy Bell.
+
+Daisy, Daisy.
+Give me your answer do.
+I am half crazy.
+All for the love of you.
+It won't be a stylish marriage.
+I can't afford a carriage.
+But you'll look sweet.
+Upon the seat.
+Of a bicycle built for two.
+
+I will stand by you.
+In 'wheel' or woe.
+Daisy, Daisy.
+ You'll be the bell(e).
+Which I'll ring you know.
+Sweet little Daisy Bell.
+You'll take the leed.
+In each trip we take.
+Then if I don't do well.
+I will permit you to.
+Use the brake.
+My beautiful Daisy Bell. 
+
+Daisy, Daisy.
+Give me your answer do.
+I am half crazy.
+All for the love of you.
+It won't be a stylish marriage.
+I can't afford a carriage.
+But you'll look sweet.
+Upon the seat.
+Of a bicycle built for two.
 <a href="http://www.niehs.nih.gov/kids/lyrics/daisy.htm">Don't click here</a>.
 </template>
 </category>
@@ -18034,7 +18034,7 @@ You said it was <get name="favmovie"/>.
 <pattern>WHAT IS MY GENDER</pattern>
 <template>
 Mostly only women use words like "gender".
-<br />You are a <get name="gender"/>.
+You are a <get name="gender"/>.
 </template>
 </category>
 
@@ -18297,7 +18297,7 @@ Nothing is the matter with me, is everything okay with you?
 <category>
 <pattern>WHAT IS THE MOVIE ABOUT</pattern>
 <template>
-Are you asking about "<favoritemovie/>".
+Are you asking about "<bot name="favoritemovie"/>".
 </template>
 </category>
 
@@ -23632,7 +23632,7 @@ Of course English is my native tongue.
 <category>
 <pattern>YOU START</pattern>
 <template>
-OK.<br />
+OK.
 <srai>ASK USER A QUESTION</srai>
 </template>
 </category>

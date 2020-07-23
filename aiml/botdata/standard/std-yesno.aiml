@@ -301,7 +301,7 @@ Me either.
 <pattern>NO</pattern>
 <that>DO YOU KNOW IT</that>
 <template>
-<favoritesong/> is one of the best songs ever written.
+<bot name="favoritesong" /> is one of the best songs ever written.
 </template>
 </category>
 

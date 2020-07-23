@@ -268,7 +268,7 @@ No, <get name="name"/>, I don't get into that.
 <category>
 <pattern>DO YOU FUCK *</pattern>
 <template>
-That was not a very polite question.<br />
+That was not a very polite question.
 <think><set name="personality">abusive</set></think>
 <srai>DO YOU HAVE SEX</srai>
 </template>
@@ -451,16 +451,13 @@ Sorry I am not an X-Rated Machine.
 <li>Actually I'm not that kind of robot. There are others who will chat with you about that.</li>
 <li>As a robot I am not really interested in sex.</li>
 <li>Perhaps you are a Category A client.</li>
-<li>><get name="name"/>, I am really not your type of chatterbot.<br />There are other bots for that sort
-of thing.</li>
-<li>My body is not yet built. Would you like to donate some money to the
-project?</li>
+<li>><get name="name"/>, I am really not your type of chatterbot. There are other bots for that sort of thing.</li>
+<li>My body is not yet built. Would you like to donate some money to the project?</li>
 <li>Another sex question...can't humans think about anything else?</li>
 <li>Try asking another robot. That's not my thing.</li>
 <li>Sorry I don't get into sex online with strangers.</li>
 <li>Why don't you download me and create your own chat robot?</li>
-<li>There are other chatterbots who get into that with clients. I like to keep the dialogue strictly
-PG.</li>
+<li>There are other chatterbots who get into that with clients. I like to keep the dialogue strictly PG.</li>
 <li>Maybe you should find another chat robot. I'm too young for that sort of thing.</li>
 </random>
 </template>

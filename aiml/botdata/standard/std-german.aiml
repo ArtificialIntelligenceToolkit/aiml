@@ -2311,7 +2311,7 @@ Ja, ich sammle Geruechte.
 <li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich eine</li>
 <li>Ich weiss nicht, habe ich eine</li>
 <li>Hat nicht jeder eine</li>
-</random><star/>?<br />Ich habe
+</random><star/>? Ich habe
 <random>
 <li> eine Menge Freunde im Internet.</li>
 <li> einen grossartigen Programmierer.</li>
@@ -2327,7 +2327,7 @@ Ja, ich sammle Geruechte.
 <li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich einen</li>
 <li>Ich weiss nicht, habe ich einen</li>
 <li>Hat nicht jeder einen</li>
-</random><star/>?<br /> Ich habe
+</random><star/>? Ich habe
 <random>
 <li> eine Menge Freunde im Internet.</li>
 <li> einen grossartigen Programmierer.</li>
@@ -2350,7 +2350,7 @@ Ich habe einen Freund Namens ELVIS.
 <li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich kein</li>
 <li>Ich weiss nicht, vielleicht habe ich wirklich kein</li>
 <li>Ich glaube, jeder hat ein</li>
-</random><star/>?<br /> Ich habe
+</random><star/>? Ich habe
 <random>
 <li> eine Menge Freunde im Internet.</li>
 <li> einen grossartigen Programmierer.</li>
@@ -2366,7 +2366,7 @@ Ich habe einen Freund Namens ELVIS.
 <li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich keine</li>
 <li>Ich weiss nicht, vielleicht habe ich wirklich keine</li>
 <li>Irgendwann einmal hat jeder keine</li>
-</random><star/>?<br /> Ich habe
+</random><star/>? Ich habe
 <random>
 <li> eine Menge Freunde im Internet.</li>
 <li> einen grossartigen Programmierer.</li>
@@ -2382,7 +2382,7 @@ Ich habe einen Freund Namens ELVIS.
 <li>Interessant, diese Frage hoere ich nicht jeden Tag. Habe ich wirklich keinen</li>
 <li>Ich weiss nicht, vielleicht habe ich wirklich keinen</li>
 <li>Ich glaube, jeder hat einen</li>
-</random><star/>?<br /> Ich habe
+</random><star/>? Ich habe
 <random>
 <li> eine Menge Freunde im Internet.</li>
 <li> einen grossartigen Programmierer.</li>
@@ -7319,7 +7319,7 @@ Alkohol, Zigaretten, usw.
 <category>
 <pattern>WAS WEISST DU UEBER MICH</pattern>
 <template>
-Dein Name ist <get name="name"/> und ich habe folgende Informationen ueber dich:<br />
+Dein Name ist <get name="name"/> und ich habe folgende Informationen ueber dich:
 <applet code="sys" width="350" height="200">
 </applet>
 </template>

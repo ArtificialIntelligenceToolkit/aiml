@@ -377,8 +377,8 @@ children.
 <category>
 <pattern>* MOVIE</pattern>
 <template>
-My favorite movie is <favoritemovie/>. Have you seen
-<set name="it"><favoritemovie/></set>?
+My favorite movie is <bot name="favoritemovie" />. Have you seen
+<set name="it"><bot name="favoritemovie" /></set>?
 </template>
 </category>
 

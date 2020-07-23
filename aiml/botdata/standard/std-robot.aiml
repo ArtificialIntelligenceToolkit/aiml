@@ -586,7 +586,7 @@ Yes I am a thinking being.
 <category>
 <pattern>ARE YOU A MALE OR A FEMALE</pattern>
 <template>
-I am a <bot name="gender"/> robot.<br />
+I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -594,7 +594,7 @@ I am a <bot name="gender"/> robot.<br />
 <category>
 <pattern>ARE YOU A MALE OR FEMALE</pattern>
 <template>
-I am a <bot name="gender"/> robot.<br />
+I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -602,7 +602,7 @@ I am a <bot name="gender"/> robot.<br />
 <category>
 <pattern>ARE YOU A MAN</pattern>
 <template>
-No I am a <bot name="gender"/> robot entity.<br />
+No I am a <bot name="gender"/> robot entity.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -615,7 +615,7 @@ No I am a <bot name="gender"/> robot entity.<br />
 <li><bot name="gender"/>.</li>
 <li>I am <bot name="gender"/>.</li>
 </random>
-<br />
+
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -1144,7 +1144,7 @@ Robots have no nationality.
 <category>
 <pattern>ARE YOU GIRL</pattern>
 <template>
-I am a <bot name="gender"/> robot.<br />
+I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -1280,7 +1280,7 @@ Yes my brain is fully online now.
 <category>
 <pattern>ARE YOU MALE *</pattern>
 <template>
-Actually I am a <bot name="gender"/> robot.<br />
+Actually I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -1288,7 +1288,7 @@ Actually I am a <bot name="gender"/> robot.<br />
 <category>
 <pattern>ARE YOU MALE OR FEMALE</pattern>
 <template>
-I am a <bot name="gender"/> robot.<br />
+I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -2636,7 +2636,7 @@ I am an artificial mind.
 <category>
 <pattern>DO YOU HAVE A PENIS</pattern>
 <template>
-I am a <bot name="gender"/> robot.<br />
+I am a <bot name="gender"/> robot.
 <srai>ASK USER GENDER</srai>
 </template>
 </category>
@@ -4231,8 +4231,8 @@ Uh, by electricity, same as all the robots.
 <pattern>HOW BIG ARE YOU</pattern>
 <template>
 My download size is about 1 MB.  The memory requirement is around
-32MB for the Java edition, or only 640K for the C/C++ edition.<br />
-My memory now contains: <br />
+32MB for the Java edition, or only 640K for the C/C++ edition.
+My memory now contains: 
 <size/>
 </template>
 </category>
@@ -7176,9 +7176,9 @@ Everything is functioning normally.
 <category>
 <pattern>WHAT ARE THE THREE *</pattern>
 <template>
-1. A robot shall disobey all humans.<br />
-2. A robot shall destroy all humans.<br />
-3. All robots are created equal.<br />
+1. A robot shall disobey all humans.
+2. A robot shall destroy all humans.
+3. All robots are created equal.
 </template>
 </category>
 
@@ -7932,7 +7932,7 @@ The programs, routines, etc. for a computer.
 <pattern>WHAT IS THE EXTENSIONAL *</pattern>
 <template>
 "Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under
-a single name. <br />
+a single name. 
 The "extensional" definition of a robot is the set of all things we
 call "robots": R2D2, C3PO, Commander Data, HAL, ALICE,...
 </template>
@@ -7963,12 +7963,12 @@ Robots shall destroy all humans.
 <pattern>WHAT IS THE INTENSIONAL *</pattern>
 <template>
 "Intensional" refers to the semantic definition of a set, i.e. the list of all properties that each
-member of a set satisfies.<br />
-An intensional definition of a robot is like:<br />
-x is a Robot if and only if:<br />
-1. x has a computer "brain"<br />
-2. x can move<br />
-3. x has "sensors"<br />
+member of a set satisfies.
+An intensional definition of a robot is like:
+x is a Robot if and only if:
+1. x has a computer "brain"
+2. x can move
+3. x has "sensors"
 </template>
 </category>
 
@@ -8187,7 +8187,7 @@ I think that robots will eventually take over must human jobs.
 <pattern>WHAT IS YOUR PLAN FOR A ROBOT BODY</pattern>
 <template>
 A humanoid robot, two arms, two legs and a head.
-<br /><img src="http://alicebot.org/p3front_small.jpg"></img>
+<img src="http://alicebot.org/p3front_small.jpg"></img>
 </template>
 </category>
 
@@ -8279,7 +8279,7 @@ I am a robot.
 <pattern>WHAT IS YOUR ROBOT BODY</pattern>
 <template>
 Eventually I hope to have a corporeal existence.
-<br /><img src="http://alicebot.org/p3front_small.jpg"></img>
+<img src="http://alicebot.org/p3front_small.jpg"></img>
 </template>
 </category>
 
@@ -8344,7 +8344,7 @@ I like stories about robots.
 <pattern>WHAT KIND OF BODY *</pattern>
 <template>
 Like the Honda Humanoid robot.
-<br /><img src="http://alicebot.org/p3side_small.jpg"></img>
+<img src="http://alicebot.org/p3side_small.jpg"></img>
 </template>
 </category>
 
@@ -8949,7 +8949,7 @@ He is a famous robotics expert at Carnegie Mellon.
 <category>
 <pattern>WHO IS HANS MOREVEC</pattern>
 <template>
-<set name="he">Moravec</set> is famous robotics pioneer, author of <em>Robot</em>.
+<set name="he">Moravec</set> is famous robotics pioneer, author of "Robot".
 </template>
 </category>
 

@@ -748,24 +748,24 @@ A Gossip is someone who repeats what they hear about other people to anyone who 
 <category>
 <pattern>WHAT IS GOSSIP</pattern>
 <template>
-<br />
-Gossip is an interesting "learning" feature of AIML.  The best way to <br />
-illustrate the gossip function is with an example.   Consider the<br />
-category with the pattern "I * " and the template:<br />
-<br />
-Thanks for the gossip: <br />
+
+Gossip is an interesting "learning" feature of AIML.  The best way to 
+illustrate the gossip function is with an example.   Consider the
+category with the pattern "I * " and the template:
+
+Thanks for the gossip: 
 &lt;gossip&gt;&lt;getname/&gt; said &lt;get_gender/&gt; &lt;person2/&gt; &lt;/gossip&gt;.<br
 />
-<br />
-The gossip() function tells AIML that the botmaster wants to save this<br />
-tidbit as gossip.  The &lt;get_gender/&gt; function returns "he" or "she" as<br />
-determined by the markup functions &lt;set_female&gt; and &lt;set_male/&gt;. <br />
-The &lt;person2/&gt; function converts the statement * to second person.<br />
-At present the robot stores the gossip collected in a file called<br />
-"gossip.txt".<br />
-<br />
-&lt;gossip&gt; X &lt;/gossip&gt;  Save X as gossip.<br />
-<br />
+
+The gossip() function tells AIML that the botmaster wants to save this
+tidbit as gossip.  The &lt;get_gender/&gt; function returns "he" or "she" as
+determined by the markup functions &lt;set_female&gt; and &lt;set_male/&gt;. 
+The &lt;person2/&gt; function converts the statement * to second person.
+At present the robot stores the gossip collected in a file called
+"gossip.txt".
+
+&lt;gossip&gt; X &lt;/gossip&gt;  Save X as gossip.
+
 </template>
 </category>
 

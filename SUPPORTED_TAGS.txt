@@ -1,10 +1,11 @@
 This document describes the current state of PyAIML's compliance
 to the AIML 1.0.1 standard.  The full AIML reference manual can be
-found online at http://alicebot.org/TR/2001/WD-aiml.
+found online at https://github.com/AIML-Foundation/AIML-1.0.1 .
 
 The following tags are currently supported:
 
 	<bot name="name"> (see notes)
+	<category>
 	<condition>
 	<date>
 	<formal>
@@ -15,6 +16,7 @@ The following tags are currently supported:
 	<learn>
 	<li>
 	<lowercase>
+	<pattern>
 	<person>
 	<person2>
 	<random>
@@ -25,6 +27,7 @@ The following tags are currently supported:
 	<srai>
 	<star>
 	<system>
+	<template>
 	<that>
 	<thatstar>
 	<think>

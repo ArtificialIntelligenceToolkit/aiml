@@ -53,12 +53,12 @@ naming them in the command line; if none is specified all will be executed.
 
 
 
-.. _PyAIML: https://github.com/cdwfs/pyaiml
+.. _PyAIML: https://github.com/Calysto/aiml  (forked from https://github.com/cdwfs/pyaiml)
 .. _Free ALICE AIML set: https://code.google.com/archive/p/aiml-en-us-foundation-alice/
 .. _LGPL: http://www.gnu.org/licenses/lgpl.html
-.. _ALICE AI Foundation: http://alice.pandorabots.com/
+.. _AIML Foundation: http://www.aiml.foundation/index.html
 .. _bot.py: aiml/script/bot.py
-.. _AIML 1.0.1: http://www.alicebot.org/TR/2011/
+.. _AIML 1.0.1: https://github.com/AIML-Foundation/AIML-1.0.1
 
 ------------------------------------------------------------------------------
 
